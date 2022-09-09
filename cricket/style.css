@@ -1,0 +1,193 @@
+.root{
+    margin: 0px;
+    padding: 0px;
+    Font family: Poppins;
+    
+}
+body {font-family: "Times New Roman", Georgia, Serif;}
+        
+      
+.abc {font-family: "Times New Roman", Georgia, Serif; background-image: url(images/front_page.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color:#464646;  
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+.reset2bg {font-family: "Times New Roman", Georgia, Serif; background-image: url(images/billy_bowden.gif);
+  float: left;
+    height: auto;
+    width: 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color:#464646;  
+}
+.create{
+Font style: SemiBold;
+Font size: 40px;
+Line height: 60px;
+Line height: 100%;
+Align: Center;
+Vertical align: Top;
+}
+.container{
+    margin: 40px 0px;
+    padding: 0px;
+    float: left;
+    height: auto;
+    width: 100%;
+    Font family: Poppins;
+}
+.left_img{
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    height: auto;
+    width: 50%;  
+}
+.right_info{
+    margin: 0px;
+    padding: 0px;
+    float: right;
+    height: auto;
+    width: 50%; 
+}
+.topnavigation{
+    margin: 0px;
+    padding: 5px;
+    float: left;
+    height: 40px;
+    width: 100%;
+    box-shadow: 0px 0px 2px 0px ;
+    position: fixed;
+}
+.word{
+    margin: 2px 15px;
+    padding: 0px 10px;
+    float: left;
+    height: auto;
+    Font family: Poppins;
+}
+.signup{
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    height: auto;
+    width: 100%;
+}
+.right_info{
+    margin: 0px;
+    padding: 0px;
+    float: right;
+    height: auto;
+    width: 50%;
+}
+.image{
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    height: auto;
+    width: 50%;
+}
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow: hidden;
+    padding-top: 10px;
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  /* Style the image inside the centered container, if needed */
+  .centered img {
+    width: 150px;
+  }
+
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  /* Add a background color when the inputs get focus */
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  button {
+    background-color: #2F4F4F;
+    color: white;
+    padding: 14px 20px;
+    margin: 20px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-decoration: none;
+    opacity: 0.9;
+    border-radius: 12px;
+  }
+  .signupbtn{
+    margin: 10px 0px;
+  }
+  
+  button:hover {
+    opacity:1;
+  }
+  .info{
+    margin: 10% auto; 
+    color: white;
+    width: 600px; 
+    height: 50px; 
+    font-size: medium; 
+    text-align: center; 
+    line-height: 50px;
+  }
+  .enter{
+    margin: 0% auto; 
+    color:black;
+    width: 70px; 
+    height: 50px; 
+    border-radius: 12px; 
+    background-color: white;
+    font-size: large; 
+    text-align: center; 
+    line-height: 50px;
+  }
+  .forgotpassword{
+    margin: 5% auto;  
+    width:50%;
+    height:50%;
+    background-color: beige;
+    border-radius: 12px;
+    padding: 30px;
+    border: none;
+    box-shadow: 5px 10px 8px #888888;
+  }
